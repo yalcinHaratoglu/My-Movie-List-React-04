@@ -4,7 +4,7 @@ import { useMovies } from "./useMovies";
 import { useLocalStorageState } from "./useLocalStorageState";
 import { useKey } from "./useKey";
 
-const API_KEY = import.meta.env.VITE_API_KEY;
+const API_KEY = "182c4c4a";
 
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
