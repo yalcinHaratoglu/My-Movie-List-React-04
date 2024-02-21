@@ -7,7 +7,7 @@ import { useKey } from "./useKey";
 const API_KEY = import.meta.env.VITE_API_KEY;
 
 const average = (arr) =>
-  arr.reduce((acc, cur, arr) => acc + cur / arr.length, 0);
+  arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
 export default function App() {
   const [query, setQuery] = useState("");
